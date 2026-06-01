@@ -292,6 +292,16 @@ footer{background:var(--green-900);color:#cdd6c6;padding:56px 0 30px}
   .nav-links a::after{display:none}
   .hamb{display:flex}.nav-cta{display:none}
 }
+
+/* ===== 모바일 줄바꿈 전용 (PC 영향 없음) ===== */
+.brm{display:none}
+@media(max-width:600px){
+  .brm{display:inline}
+  .hero-stats{gap:12px;flex-wrap:nowrap;justify-content:space-between;margin-top:38px}
+  .hero-stats .st{flex:1;text-align:center}
+  .hero-stats .st b{font-size:1.5rem}
+  .hero-stats .st span{font-size:.7rem;line-height:1.3;display:block}
+}
 </style>
 </head>
 <body>
@@ -321,7 +331,7 @@ footer{background:var(--green-900);color:#cdd6c6;padding:56px 0 30px}
     <div class="hero-text reveal">
       <div class="eyebrow">독학 · 스케줄링 전문 · 일산본원점</div>
       <h1>시작이 다르면<br><span class="gd">결과도 다릅니다</span></h1>
-      <p class="sub">검증된 명문대 멘토진과 1:1 개별 맞춤 학습관리시스템.<br>막연하게 길이 보이지 않는 공부가 아닌,<br>체계적인 설계로 이유 있는 공부를 시작합니다.</p>
+      <p class="sub">검증된 명문대 멘토진과 <br class="brm">1:1 개별 맞춤 학습관리시스템.<br>막연하게 길이 보이지 않는 공부가 아닌,<br>체계적인 설계로 이유 있는 공부를 시작합니다.</p>
       <p class="latline">The one, D.one · The Premium Self-Study Scheduling Center</p>
       <div class="hero-actions">
         <a href="#program" class="btn btn-white">대치디원 프로그램</a>
@@ -341,18 +351,18 @@ footer{background:var(--green-900);color:#cdd6c6;padding:56px 0 30px}
     <div class="sec-head reveal">
       <div class="eyebrow">대치디원스파르타 소개</div>
       <h2 class="h2">바른 <b>방향</b>으로,<br>끝까지 함께 갑니다</h2>
-      <p class="lead" style="margin-left:auto;margin-right:auto">공부에서 가장 중요한 건 속도가 아니라 방향입니다.<br>대치디원스파르타 일산본원점은<br>학생이 어디로, 어떻게 가야 할지 정확한 방향을 함께 잡고<br>— 천천히, 진중히, 묵묵히 끝까지 함께 걷습니다.<br>바른 길을 걸으면, 결과는 자연스럽게 따라옵니다.</p>
+      <p class="lead" style="margin-left:auto;margin-right:auto">공부에서 가장 중요한 건 속력이 아니라 방향입니다.<br>대치디원스파르타 일산본원점은<br>학생이 어디로, 어떻게 가야 할지 <br class="brm">정확한 방향을 함께 잡고<br>— 천천히, 진중히, 묵묵히 끝까지 함께 걷습니다.<br>바른 길을 걸으면, 결과는 자연스럽게 따라옵니다.</p>
     </div>
     <div class="intro-grid">
       <div class="intro-card reveal">
         <span class="kept">Our Way</span>
         <h3>방향이 맞으면,<br>스스로 멀리 갑니다.</h3>
-        <p>우리는 속도보다 <span class="em">방향</span>을 보고, 학생이 <span class="em">스스로 해내는 힘</span>을 키웁니다. 정확한 방향을 함께 잡아 주고, 제 힘으로 걸을 수 있을 때까지 곁에서 묵묵히 함께합니다.</p>
+        <p>우리는 속력보다 <span class="em">방향</span>을 보고, <br class="brm">학생이 <span class="em">스스로 해내는 힘</span>을 키웁니다. <br class="brm">정확한 방향을 함께 잡아 주고, <br class="brm">제 힘으로 걸을 수 있을 때까지 <br class="brm">곁에서 묵묵히 함께합니다.</p>
         <p class="quote">천천히, 진중히, 묵묵히 — 정확한 방향으로.</p>
       </div>
       <div class="intro-steps reveal">
         <div class="istep"><span class="n">1</span><div><h4>방향을 함께 잡습니다</h4><p>1:1 상담으로 지금 어디에 서 있는지,<br>어디로 어떻게 가야 하는지 함께 살핍니다.</p></div></div>
-        <div class="istep"><span class="n">2</span><div><h4>스스로 하는 힘을 키웁니다</h4><p>혼자서도 해내는 공부 습관과 과목별 공부의 방향을 함께 만듭니다.</p></div></div>
+        <div class="istep"><span class="n">2</span><div><h4>스스로 하는 힘을 키웁니다</h4><p>혼자서도 해내는 공부 습관과 <br class="brm">과목별 공부의 방향을 함께 만듭니다.</p></div></div>
         <div class="istep"><span class="n">3</span><div><h4>끝까지 함께 걷습니다</h4><p>꾸준한 속도로, 실력이 몸에 밸 때까지 곁에서 함께합니다.</p></div></div>
       </div>
     </div>
